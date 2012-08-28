@@ -1,0 +1,7 @@
+body
+{
+background="Background.jpg";
+color:red; 
+font-weight:bold;
+}
+

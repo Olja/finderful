@@ -1,0 +1,12 @@
+body
+{
+background-image: url(http://www.webdesign.org/img_articles/17280/background2.jpg);
+color:red; 
+font-weight:bold;
+text-align: center
+}
+span.score {
+  color:green;
+}
+
+

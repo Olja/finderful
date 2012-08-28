@@ -1,0 +1,12 @@
+{% extends "template_finderful.html" %}
+
+{% block title %}The best score is {{maximal_score}}{% endblock %}
+
+{% block body %}
+     The list of the best scores and authors is the following:
+      <ol>
+      {% for author in author_list %}
+         <li><span class="name">{{author.name}}</span><span>:	</span><span class="score">{{author.score}}</span></li>
+      {% endfor %}
+      </ol>
+{% endblock %}

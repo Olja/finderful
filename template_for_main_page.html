@@ -1,0 +1,14 @@
+{% extends "template_finderful.html" %}
+
+{% block title %}Welcome to Finderful{% endblock %}
+
+{% block body %}
+    <background="Background.jpg">
+    <form action="/query" method="post">
+        <p align="center">
+         </background>
+    <div><textarea name="content" rows="3" cols="60"></textarea></div>
+    <div><input type="submit" value="Send the keyword"></div>
+    </p>
+    </form>
+{% endblock %}

@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <b>The most competent persons for your query are:
+        <blockquote>{{ person.name|escape }}</blockquote>
+
+    <form action="/sign" method="post">
+      <div><textarea name="name" rows="3" cols="60"></textarea></div>
+    </form>
+
+    <a href="{{ url }}">{{ url_linktext }}</a>
+
+  </body>
+</html>
